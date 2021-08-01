@@ -32,6 +32,7 @@ Marketplace for used parts and products
 - ... other tools that appear during development, test and production
 
 - Browser Geolocation + another solution to always get the City and State of the user upon clicking to see the phone of the product
+https://lite.ip2location.com/ could be a solution
 
 ## Flow/Use cases
 
@@ -42,3 +43,12 @@ Marketplace for used parts and products
 - A logged user can showcase its products for free, putting photos, description, title, phone number and price. He or She only needs to create a profile with name, phone number and CEP
 - The service will be always free for everyone
 
+# IP Geolocation API Test MVP
+
+- Spawn a single HTML with a button for shown a user telephone when clicked on AWS S3
+
+- Create a user with telephone with a single product on AWS DynamoDB
+
+- Create a function to backup the functionality of the button click and handle by the DynamoDB, retrieving the telephone and saving the user information on the product array, passing Geolocation Data and other information of user as time of retrieving and others catched by some fingerprinting mechanism
+
+- ... others will appear during test
