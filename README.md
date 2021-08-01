@@ -35,7 +35,7 @@ Marketplace for used parts and products
 
 - User enters into website and can browse list of products using a search tool without the need to login
 - User can check products and, if interested in buying, click on a button to display the telephone number (the information stating that the user already visualized the phone for that product will be save as a cookie, prevented him or her to click again, but always showing the phone for that specifically product upon every visualization)
-- Upon clicking the button, data is saved into server adding 1 point of interest to that product (Maybe should be interesting registering the location - State and City from that user)
+- Upon clicking the button, data is saved into server adding 1 point of interest to that product (Maybe should be interesting registering the location - State and City from that user. It's better to do that using a ip geolocation api automatically instead of requiring the user to accept the geolocation prompt)
 
 - A logged user can showcase its products for free, putting photos, description, title, phone number and price. He or She only needs to create a profile with name, phone number and CEP
 - The service will be always free for everyone
