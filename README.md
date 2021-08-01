@@ -31,6 +31,8 @@ Marketplace for used parts and products
 
 - ... other tools that appear during development, test and production
 
+- Browser Geolocation + another solution to always get the City and State of the user upon clicking to see the phone of the product
+
 ## Flow/Use cases
 
 - User enters into website and can browse list of products using a search tool without the need to login
