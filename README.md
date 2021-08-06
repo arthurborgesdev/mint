@@ -29,7 +29,7 @@ Classified advertisement global website for mind condition products
 
 - ... other tools that appear during development, test and production
 
-- Browser Geolocation + another solution to always get the City and State of the user upon clicking to see the phone of the product
+- Browser Geolocation + another solution to always get the Country of the user upon clicking to see the contact information of the product
 https://lite.ip2location.com/ could be a solution
 
 ## Flow/Use cases
