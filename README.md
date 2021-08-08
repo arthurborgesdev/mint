@@ -1,5 +1,6 @@
 # mint
-Classified advertisement global website for mind condition products
+
+> Classified advertisement global website for mint condition products
 
 ## Goals
 
@@ -13,7 +14,7 @@ Classified advertisement global website for mind condition products
 
 ## Tech stack and tools
 
-- React (for the front-end)
+- React (for the front-end) -> Consider using preact to make the app lightweight and superfast
 
 - AWS S3 (to host the front-end code)
 
@@ -34,16 +35,36 @@ https://lite.ip2location.com/ could be a solution
 
 ## Flow/Use cases
 
-- User enters into website and can browse list of products using a search tool without the need to login
-- User can check products and, if interested in buying, click on a button to display the provided contact information (the information stating that the user already visualized the this data for that product will be save as a cookie, prevented him or her to click again, but always showing it for that specifically product upon every visualization)
-- Upon clicking the button, data is saved into server adding 1 point of interest to that product (Maybe should be interesting registering the location - State and City from that user. It's better to do that using a ip geolocation api automatically instead of requiring the user to accept the geolocation prompt)
+- Journey for non-logged users:
 
-- A logged user can showcase its products for free, putting photos, description, title, contact information and price. He or She only needs to create a profile with name, phone number and Location.
+  - User enters into website and can browse list of products using a search tool without the need to login
+
+  - User can check products and, if interested in buying, click on a button to display the provided contact information (the    information stating that the user already visualized the this data for that product will be save as a cookie, prevented him or her to click again, but always showing it for that specifically product upon every visualization)
+
+  - Upon clicking the button, data is saved into server adding 1 point of interest to that product (Maybe should be interesting    registering the location - State and City from that user. It's better to do that using a ip geolocation api automatically instead    of requiring the user to accept the geolocation prompt)
+
+
+- Journey for registering user:
+
+  - He or She needs to provide: 
+    - Name (first or full)
+    - email
+    - Country (they need to search by it on a input)
+    - password
+    - prefered contact info (text field, can be updated when he or she needs it)
+
+  - A logged user can showcase its products for free, putting photos, description, title, contact information and price. He or She only needs to create a profile with name, phone number and Location.
+
 - The service will be always free for everyone
+
+- Journey for the logged buyer:
+
+  - When a logged/registered user tries to buy from another registered user, both the information from countries will be recorded correctly
+
 
 # IP Geolocation API Test MVP
 
-- Spawn a single HTML with a button for shown a user telephone when clicked on AWS S3
+- Spawn a single HTML with a button for shown a user contact info when clicked on AWS S3 (simple preact app)
 
 - Create a user with telephone with a single product on AWS DynamoDB
 
