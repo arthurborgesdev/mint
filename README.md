@@ -14,7 +14,7 @@
 
 ## Tech stack and tools
 
-- React (for the front-end) -> Consider using preact to make the app lightweight and superfast
+- React (for the front-end) -> create-react-app
 
 - AWS S3 (to host the front-end code)
 
@@ -65,7 +65,7 @@
 
 # IP Geolocation API Test MVP
 
-- Spawn a single HTML with a button to show a user contact info when clicked and store the front end code on AWS S3 (simple react/preact app)
+- Spawn a single React functional component with a button to show a user contact info when clicked and store the front end code on AWS S3 (simple react/preact app)
 
 - Create a user with profile with a single product on AWS DynamoDB
 
