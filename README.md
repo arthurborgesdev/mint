@@ -72,3 +72,7 @@
 - Create a function to backup the functionality of the button click and handle it using the DynamoDB, retrieving the contact info and saving the user information on the product array, passing Geolocation Data
 
 - ... others will appear during test
+
+# Tests
+
+Create tests using Jest since the beginning
