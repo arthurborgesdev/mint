@@ -2,6 +2,40 @@
 
 > Classified advertisement global website for mint condition products
 
+![screenshot](./screenshot.png)
+
+
+## Built With
+
+- React
+- VSCode
+- Ubuntu 20.04
+
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+- A GitHub account signed in in your terminal
+- NPM
+
+### Setup
+
+React
+- `git clone git@github.com:arthurborgesdev/mint.git`
+- `cd mint`
+
+### Install
+
+React
+- `npm install`
+
+### Usage
+
+TBA
+
 ## Goals
 
 - Provide a low-code platform relying on lots of pre-existing tools, frameworks and services, to create a scalable product for people to sell used parts and products seamlessly.
@@ -76,3 +110,23 @@
 # Tests
 
 Create tests using Jest since the beginning
+
+
+## Authors
+
+👤 **Arthur Borges**
+
+- GitHub: [@arthuborgesdev](https://github.com/arthurborgesdev)
+- Twitter: [@arthurmoises](https://twitter.com/arthurmoises)
+- LinkedIn: [Arthur Borges](https://linkedin.com/in/arthurmoises)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
