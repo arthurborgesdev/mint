@@ -94,7 +94,7 @@ TBA
 
 - Journey for the logged buyer:
 
-  - When a logged/registered user tries to buy from another registered user, both the information from countries will be recorded correctly
+  - When a logged/registered user tries to buy from another registered user, both the information from countries will be recorded correctly without the need to get the location of the prospective buyer using ip2location for example
 
 
 # IP Geolocation API Test MVP
