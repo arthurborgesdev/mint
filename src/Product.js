@@ -1,24 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Product = ({
-  image, title, description, price, contact,
-}) => (
+const Product = ({ data }) => (
   <>
-    <img src={image} alt={`the visual representation of a ${title}`} />
-    <h3>{title}</h3>
-    <p>{description}</p>
-    <h4>{price}</h4>
-    <p>{contact}</p>
+    <img src={data.image} alt={`the visual representation of a ${data.title}`} />
+    <h3>{data.title}</h3>
+    <p>{data.description}</p>
+    <h4>{data.price}</h4>
+    <p>{data.contact}</p>
   </>
 );
 
 Product.propTypes = {
-  image: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  price: PropTypes.string.isRequired,
-  contact: PropTypes.string.isRequired,
+  data: PropTypes.objectOf(PropTypes.string).isRequired,
 };
 
 export default Product;
