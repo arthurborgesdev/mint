@@ -2,6 +2,40 @@
 
 > Classified advertisement global website for mint condition products
 
+![screenshot](./screenshot.png)
+
+
+## Built With
+
+- React
+- VSCode
+- Ubuntu 20.04
+
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+- A GitHub account signed in in your terminal
+- NPM
+
+### Setup
+
+React
+- `git clone git@github.com:arthurborgesdev/mint.git`
+- `cd mint`
+
+### Install
+
+React
+- `npm install`
+
+### Usage
+
+TBA
+
 ## Goals
 
 - Provide a low-code platform relying on lots of pre-existing tools, frameworks and services, to create a scalable product for people to sell used parts and products seamlessly.
@@ -60,7 +94,7 @@
 
 - Journey for the logged buyer:
 
-  - When a logged/registered user tries to buy from another registered user, both the information from countries will be recorded correctly
+  - When a logged/registered user tries to buy from another registered user, both the information from countries will be recorded correctly without the need to get the location of the prospective buyer using ip2location for example
 
 
 # IP Geolocation API Test MVP
@@ -72,3 +106,27 @@
 - Create a function to backup the functionality of the button click and handle it using the DynamoDB, retrieving the contact info and saving the user information on the product array, passing Geolocation Data
 
 - ... others will appear during test
+
+# Tests
+
+Create tests using Jest since the beginning
+
+
+## Authors
+
+👤 **Arthur Borges**
+
+- GitHub: [@arthuborgesdev](https://github.com/arthurborgesdev)
+- Twitter: [@arthurmoises](https://twitter.com/arthurmoises)
+- LinkedIn: [Arthur Borges](https://linkedin.com/in/arthurmoises)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
