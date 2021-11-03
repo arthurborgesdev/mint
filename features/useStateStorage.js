@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback } from 'react';
 
-export const useStateStorage = (key, defaultValue) => {
+const useStateStorage = (key, defaultValue) => {
   const [value, setState] = useState(defaultValue);
 
   useEffect(() => {
@@ -15,12 +15,14 @@ export const useStateStorage = (key, defaultValue) => {
   }, [key]);
 
   const setValue = useCallback(
-    newValue => {
+    (newValue) => {
       setState(newValue);
       localStorage.setItem(key, JSON.stringify(newValue));
     },
-    [key]
+    [key],
   );
 
   return [value, setValue];
 };
+
+export default useStateStorage;

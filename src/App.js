@@ -1,4 +1,5 @@
 import ProductList from './ProductList';
+import './index.css';
 
 const App = () => (
   <>
